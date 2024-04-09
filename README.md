@@ -37,8 +37,8 @@ $ python manage.py runserver
 - **Get Detail Product data with fields**: `GET /api/products/bigmak(r)/fats/`
 
 ## Features
-- Parsing all menu links
-- Parsing and creating database instance with data
+- Parsing all menu links (products/parse_all_menu_links.py)
+- Parsing and creating database instance with data (products/parse_product.py)
 - Get all products
 - Get detail products
 - get data for each product field
