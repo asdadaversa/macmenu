@@ -4,7 +4,7 @@ from django.db import models
 class Products(models.Model):
     latinos_name = models.CharField(max_length=30, null=False, unique=True)
     name = models.CharField(max_length=30, null=False, unique=True)
-    description = models.TextField(null=True)
+    description = models.TextField(null=True, default="None")
     calories = models.CharField(max_length=63)
     fats = models.CharField(max_length=63)
     carbs = models.CharField(max_length=63)
